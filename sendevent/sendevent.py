@@ -10,7 +10,7 @@ textport = sys.argv[2]
 totalcount = 0
 
 # open connection
-db = MySQLdb.connect('192.168.19.79', 'tsoc', 'venustech.tsoc.CUPID', 'tsoc')
+db = MySQLdb.connect('192.168.19.79', 'username', 'password', 'tsoc')
 
 udpSock = socket(AF_INET, SOCK_DGRAM)
 
